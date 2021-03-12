@@ -1,15 +1,9 @@
 <?php
-/**
- * User: Lessmore92
- * Date: 1/12/2021
- * Time: 3:43 PM
- */
+namespace BRTNetwork\BRTBinaryCodecc;
 
-namespace Lessmore92\RippleBinaryCodec;
-
-use Lessmore92\Buffer\Buffer;
-use Lessmore92\RippleBinaryCodec\Model\Bytes;
-use Lessmore92\RippleBinaryCodec\Model\Field;
+use BRTNetwork\Buffer\Buffer;
+use BRTNetwork\BRTBinaryCodecc\Model\Bytes;
+use BRTNetwork\BRTBinaryCodecc\Model\Field;
 
 define('TRANSACTION_TYPE_WIDTH', 2);
 

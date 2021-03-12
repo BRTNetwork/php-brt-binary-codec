@@ -1,11 +1,5 @@
 <?php
-/**
- * User: Lessmore92
- * Date: 1/12/2021
- * Time: 3:42 PM
- */
-
-namespace Lessmore92\RippleBinaryCodec;
+namespace BRTNetwork\BRTBinaryCodecc;
 
 class Utils
 {

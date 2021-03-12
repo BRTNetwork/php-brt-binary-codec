@@ -1,20 +1,14 @@
 <?php
-/**
- * User: Lessmore92
- * Date: 1/12/2021
- * Time: 3:39 PM
- */
-
-namespace Lessmore92\RippleBinaryCodec;
+namespace BRTNetwork\BRTBinaryCodecc;
 
 define('ARRAY_END_MARKER', 0xf1);
 define('OBJECT_END_MARKER_BYTE', 0xe1);
 
 use BN\BN;
 use Exception;
-use Lessmore92\Buffer\Buffer;
-use Lessmore92\RippleAddressCodec\RippleAddressCodec;
-use Lessmore92\RippleBinaryCodec\Model\Field;
+use BRTNetwork\Buffer\Buffer;
+use BRTNetwork\BRTAddressCodec\BRTAddressCodec;
+use BRTNetwork\BRTBinaryCodecc\Model\Field;
 
 class TxSerializer
 {
@@ -22,7 +16,7 @@ class TxSerializer
 
     public function __construct()
     {
-        $this->addressCodec = new RippleAddressCodec();
+        $this->addressCodec = new BRTAddressCodec();
     }
 
     public function SerializeTx($tx, $options)

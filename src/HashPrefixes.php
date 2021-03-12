@@ -1,13 +1,7 @@
 <?php
-/**
- * User: Lessmore92
- * Date: 1/12/2021
- * Time: 3:37 PM
- */
+namespace BRTNetwork\BRTBinaryCodecc;
 
-namespace Lessmore92\RippleBinaryCodec;
-
-use Lessmore92\Buffer\Buffer;
+use BRTNetwork\Buffer\Buffer;
 
 class HashPrefixes
 {

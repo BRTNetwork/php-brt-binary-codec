@@ -1,11 +1,5 @@
 <?php
-/**
- * User: Lessmore92
- * Date: 1/13/2021
- * Time: 2:27 AM
- */
-
-namespace Lessmore92\RippleBinaryCodec\Model;
+namespace BRTNetwork\BRTBinaryCodecc\Model;
 
 abstract class BaseModel
 {

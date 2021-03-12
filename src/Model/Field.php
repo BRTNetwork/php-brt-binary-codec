@@ -1,15 +1,9 @@
 <?php
-/**
- * User: Lessmore92
- * Date: 1/10/2021
- * Time: 9:00 PM
- */
+namespace BRTNetwork\BRTBinaryCodecc\Model;
 
-namespace Lessmore92\RippleBinaryCodec\Model;
-
-use Lessmore92\Buffer\Buffer;
-use Lessmore92\RippleBinaryCodec\Definitions;
-use Lessmore92\RippleBinaryCodec\Utils;
+use BRTNetwork\Buffer\Buffer;
+use BRTNetwork\BRTBinaryCodecc\Definitions;
+use BRTNetwork\BRTBinaryCodecc\Utils;
 
 /**
  * Class Field
