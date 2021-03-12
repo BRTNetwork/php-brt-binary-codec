@@ -1,0 +1,256 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "70a4fd2bd8cf35f717ab1f4c685895e6",
+    "packages": [
+        {
+            "name": "brtnetwork/base-x",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BRTNetwork/php-base-x.git",
+                "reference": "44422a2ab28e4882737c839c483db0e0a67d8829"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BRTNetwork/php-base-x/zipball/44422a2ab28e4882737c839c483db0e0a67d8829",
+                "reference": "44422a2ab28e4882737c839c483db0e0a67d8829",
+                "shasum": ""
+            },
+            "require": {
+                "brtnetwork/buffer": "v1.0.0",
+                "php": ">=7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BRTNetwork\\BaseX\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "BRT Network",
+                    "email": "contact@brt.network"
+                }
+            ],
+            "description": "Encode/decode any base",
+            "keywords": [
+                "base",
+                "base-x",
+                "base58",
+                "base62",
+                "bitcoin",
+                "brt",
+                "brtnetwork",
+                "crypto",
+                "crytography",
+                "decode",
+                "decoding",
+                "encode",
+                "encoding",
+                "ethereum"
+            ],
+            "support": {
+                "source": "https://github.com/BRTNetwork/php-base-x/tree/1.0.0"
+            },
+            "time": "2021-03-06T13:20:32+00:00"
+        },
+        {
+            "name": "brtnetwork/brt-address-codec",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BRTNetwork/php-brt-address-codec.git",
+                "reference": "112134d20893e172f9b4cbeba7227d30e7de87dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BRTNetwork/php-brt-address-codec/zipball/112134d20893e172f9b4cbeba7227d30e7de87dc",
+                "reference": "112134d20893e172f9b4cbeba7227d30e7de87dc",
+                "shasum": ""
+            },
+            "require": {
+                "brtnetwork/base-x": "v1.0.0",
+                "brtnetwork/buffer": "v1.0.0",
+                "php": ">7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BRTNetwork\\BRTAddressCodec\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "BRT Network",
+                    "email": "contact@brt.network"
+                }
+            ],
+            "description": "Library for encoding and decoding BRT Ledger addresses and seeds.",
+            "keywords": [
+                "brt",
+                "brt-address",
+                "brt-ledger",
+                "brt-x-address",
+                "decoding",
+                "encoding",
+                "x-address",
+                "xaddress"
+            ],
+            "support": {
+                "source": "https://github.com/BRTNetwork/php-brt-address-codec/tree/1.0.0"
+            },
+            "time": "2021-03-06T13:45:27+00:00"
+        },
+        {
+            "name": "brtnetwork/buffer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BRTNetwork/php-buffer.git",
+                "reference": "e079b678199dde7897d6d273493a45b549d019a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BRTNetwork/php-buffer/zipball/e079b678199dde7897d6d273493a45b549d019a4",
+                "reference": "e079b678199dde7897d6d273493a45b549d019a4",
+                "shasum": ""
+            },
+            "require": {
+                "php-64bit": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BRTNetwork\\Buffer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "BRT Network",
+                    "email": "contact@brt.network"
+                }
+            ],
+            "description": "Toolbox for working with binary and hex data",
+            "keywords": [
+                "Buffer",
+                "binary",
+                "hex",
+                "nodejs-buffer",
+                "php-buffer"
+            ],
+            "support": {
+                "source": "https://github.com/BRTNetwork/php-buffer/tree/1.0.0"
+            },
+            "time": "2021-03-06T13:18:35+00:00"
+        },
+        {
+            "name": "simplito/bigint-wrapper-php",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simplito/bigint-wrapper-php.git",
+                "reference": "cf21ec76d33f103add487b3eadbd9f5033a25930"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simplito/bigint-wrapper-php/zipball/cf21ec76d33f103add487b3eadbd9f5033a25930",
+                "reference": "cf21ec76d33f103add487b3eadbd9f5033a25930",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BI\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simplito Team",
+                    "email": "s.smyczynski@simplito.com",
+                    "homepage": "https://simplito.com"
+                }
+            ],
+            "description": "Common interface for php_gmp and php_bcmath modules",
+            "support": {
+                "issues": "https://github.com/simplito/bigint-wrapper-php/issues",
+                "source": "https://github.com/simplito/bigint-wrapper-php/tree/1.0.0"
+            },
+            "time": "2018-02-27T12:38:08+00:00"
+        },
+        {
+            "name": "simplito/bn-php",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simplito/bn-php.git",
+                "reference": "e852fcd27e4acbc32459606d7606e45a85e42465"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simplito/bn-php/zipball/e852fcd27e4acbc32459606d7606e45a85e42465",
+                "reference": "e852fcd27e4acbc32459606d7606e45a85e42465",
+                "shasum": ""
+            },
+            "require": {
+                "simplito/bigint-wrapper-php": "~1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BN\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simplito Team",
+                    "email": "s.smyczynski@simplito.com",
+                    "homepage": "https://simplito.com"
+                }
+            ],
+            "description": "Big number implementation compatible with bn.js",
+            "support": {
+                "issues": "https://github.com/simplito/bn-php/issues",
+                "source": "https://github.com/simplito/bn-php/tree/1.1.2"
+            },
+            "time": "2018-04-12T11:07:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">7"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
