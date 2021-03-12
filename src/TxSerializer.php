@@ -1,5 +1,5 @@
 <?php
-namespace BRTNetwork\BRTBinaryCodecc;
+namespace BRTNetwork\BRTBinaryCodec;
 
 define('ARRAY_END_MARKER', 0xf1);
 define('OBJECT_END_MARKER_BYTE', 0xe1);
@@ -8,7 +8,7 @@ use BN\BN;
 use Exception;
 use BRTNetwork\Buffer\Buffer;
 use BRTNetwork\BRTAddressCodec\BRTAddressCodec;
-use BRTNetwork\BRTBinaryCodecc\Model\Field;
+use BRTNetwork\BRTBinaryCodec\Model\Field;
 
 class TxSerializer
 {

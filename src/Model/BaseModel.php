@@ -1,5 +1,5 @@
 <?php
-namespace BRTNetwork\BRTBinaryCodecc\Model;
+namespace BRTNetwork\BRTBinaryCodec\Model;
 
 abstract class BaseModel
 {

@@ -1,8 +1,8 @@
 <?php
-namespace BRTNetwork\BRTBinaryCodecc\Model;
+namespace BRTNetwork\BRTBinaryCodec\Model;
 
 use BRTNetwork\Buffer\Buffer;
-use BRTNetwork\BRTBinaryCodecc\Utils;
+use BRTNetwork\BRTBinaryCodec\Utils;
 
 /**
  * Class Bytes

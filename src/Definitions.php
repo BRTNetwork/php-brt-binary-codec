@@ -1,9 +1,9 @@
 <?php
-namespace BRTNetwork\BRTBinaryCodecc;
+namespace BRTNetwork\BRTBinaryCodec;
 
 use BRTNetwork\Buffer\Buffer;
-use BRTNetwork\BRTBinaryCodecc\Model\Bytes;
-use BRTNetwork\BRTBinaryCodecc\Model\Field;
+use BRTNetwork\BRTBinaryCodec\Model\Bytes;
+use BRTNetwork\BRTBinaryCodec\Model\Field;
 
 define('TRANSACTION_TYPE_WIDTH', 2);
 

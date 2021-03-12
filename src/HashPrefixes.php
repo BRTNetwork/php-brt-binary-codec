@@ -1,5 +1,5 @@
 <?php
-namespace BRTNetwork\BRTBinaryCodecc;
+namespace BRTNetwork\BRTBinaryCodec;
 
 use BRTNetwork\Buffer\Buffer;
 
